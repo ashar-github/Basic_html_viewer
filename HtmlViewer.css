@@ -1,0 +1,76 @@
+/* This is our standard */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* This is our main container which holds full web */
+
+#main{
+
+}
+
+/* This is our FIRST section */
+
+#first-sec{
+    height: 8.5rem;
+    width: 100vw;
+}
+
+#first-sec > img{
+    height: 100px;
+    width: 456px;
+}
+
+
+/* This is our SECOND section */
+
+
+#second-sec{
+    display: inline;
+    height: 4.5rem;
+}
+
+#second-sec > #first-span{
+    position: static;
+}
+
+
+/* This is our THIRD section */
+
+
+#third-sec{
+    display: flex;
+    flex-direction: row;
+    height: 35rem;
+}
+
+#third-sec > textarea{
+    border: 2px solid black;
+    height: 25rem;
+    width: 34.5rem;
+    margin: 2rem;    
+}
+
+#third-sec > #output_wala{
+    border: 2px solid black;
+    height: 25rem;
+    width: 34.5rem;
+    margin: 2rem;
+    padding-top: 0.15rem;
+    padding-left: 0.4rem;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+/* Utility Class */
+
+.designer{
+    padding-top: 0.30rem;
+    font-size: 2.6rem;
+    margin-left: 10rem;
+    font-family: 'Roboto', sans-serif;
+}
